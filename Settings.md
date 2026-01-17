@@ -6,6 +6,8 @@ The **Settings** section allows users to manage their account, app preferences, 
 
 ## **Accessing Settings**
 
+
+
 1. From the Dashboard, tap the **Settings icon** (⚙️) located in the top-right corner.
     
 2. This opens the **Settings** screen, where you can customize and manage various aspects of your account and the application.
