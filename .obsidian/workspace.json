@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "7120667431692a81",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfec7f729aa67843",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b92306ebcfb7918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scan Reciept.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scan Reciept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5e16549a8994bb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b3f805ba7db816b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d469938cb820439",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d7e0f21a81ac66d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "20c5e70e96e97670",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "937e0bbeec617e1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "589b1432d950fedd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cedc9550df1f68aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Scan Reciept.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Scan Reciept"
+            }
+          },
+          {
+            "id": "06478a80956c75c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Scan Reciept.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Scan Reciept"
+            }
+          },
+          {
+            "id": "0a90934a20b13e49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e25fb1387f48472f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e117d53b51af49cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Scan Reciept.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Scan Reciept"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7b92306ebcfb7918",
+  "lastOpenFiles": [
+    "assets/nexpense_scan_reciept_reciepts_1_v1.jpeg",
+    "assets/WhatsApp Image 2026-01-17 at 5.24.19 PM.jpeg",
+    "assets/nexpense_scan_reciept_reciepts_1_v1.png",
+    "assets/nexpense_scan_reciept_header_1_v1.png",
+    "assets/WhatsApp Image 2026-01-17 at 5.16.53 PM.png",
+    "assets/nexpense_scan_reciept_final_1_v1.png",
+    "assets/WhatsApp Image 2026-01-17 at 5.04.17 PM.png",
+    "assets/nexpense_scan_reciept_balance_1_v1.png",
+    "assets/WhatsApp Image 2026-01-17 at 5.01.38 PM.png",
+    "assets/nexpense_scan_reciept_category_1_v1.png",
+    "assets/WhatsApp Image 2026-01-17 at 4.59.20 PM.png",
+    "Dashboard Overview.md",
+    "Scan Reciept.md",
+    "Introduction.md",
+    "Settings.md"
+  ]
+}
