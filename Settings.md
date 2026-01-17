@@ -110,6 +110,7 @@ This helps users adapt the app to their preferred viewing comfort.
 
 ### **5. Help & Support**
 
+
 - Contact the support team.
     
 - Access FAQs and troubleshooting resources.
@@ -117,7 +118,8 @@ This helps users adapt the app to their preferred viewing comfort.
 - Useful when you face issues or need assistance.
     
 
----
+
+
 
 ### **6. About**
 
