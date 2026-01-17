@@ -221,6 +221,7 @@ If you haven’t requested any yet, it will display:
 ---
 ### **6. Help & Support**
 
+
 - Contact the support team.
     
 - Access FAQs and troubleshooting resources.
@@ -229,7 +230,8 @@ If you haven’t requested any yet, it will display:
 
 ![[nexpense_dashboard_overview_settings_security_help&support_v1.png]]
 
----
+
+
 
 ### **7. About**
 **App Details**
