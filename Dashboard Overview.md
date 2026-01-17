@@ -17,9 +17,9 @@ At the top of the screen, you’ll see:
     
 - A brief description: _“Here’s your expense overview”_
     
-- **Notification Icon** — For alerts or updates
+- **Notification** — For alerts or updates
     
-- **Settings Icon** — For managing profile and app settings
+- [[Settings]] — For managing profile and app settings
     
 
 This section gives you a personalized welcome and easy access to notifications and settings.
