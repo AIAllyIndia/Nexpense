@@ -7,7 +7,7 @@ User taps on the **“📷” icon** from the bottom navigation bar to start sca
 
 At the top of the screen, the user sees:
 
-![[nexpense_scan_reciept_header1_v1.png|305]]
+![[nexpense_scan_reciept_header_1_v1.png|605]]
 
 - **Screen Title** — _Scan Receipt_
     
@@ -21,7 +21,7 @@ This header ensures the user clearly understands they are in the receipt capture
 
 This section allows the user to decide where the expense should be saved.
 
-![[nexpense_scan_reciept_select_report1_v1.png|405]]
+![[nexpense_scan_reciept_select_report_v1.jpeg|405]]
 
 - **Report Dropdown** — Default option:  
     _“Save to Expenses Only (Auto)”_

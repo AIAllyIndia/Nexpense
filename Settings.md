@@ -2,7 +2,7 @@
 ---
 The **Settings** section allows users to manage their account, app preferences, notifications, and support options. It can be accessed directly from the Dashboard.
 
-![[nexpense_dashboard_overview_settings_v1.png]]
+![[nexpense_dashboard_overview_settings_1_v1.png]]
 
 ## **Accessing Settings**
 
