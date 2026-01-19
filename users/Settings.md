@@ -260,3 +260,5 @@ A short overview of the app explaining it helps scan receipts, categorize expens
 - Safely sign out of your account.
     
 - Recommended when switching devices or for security reasons.
+
+> To know more about creating expenses click on [[Scan Receipt]]
