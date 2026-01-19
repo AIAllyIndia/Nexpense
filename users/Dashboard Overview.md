@@ -61,7 +61,7 @@ Below the greeting, the dashboard shows important expense stats:
 - Icon: Yellow upload/document icon
 These summary cards give instant visibility into your expense activity.
 
-![[nepense_dashboard_overview_2_v1.png]]
+![[docs/users/assets/nepense_dashboard_overview_2_v1.png]]
 
 ---
 
@@ -78,7 +78,7 @@ This section allows you to submit a new report.
 
 This is the main action button for users who want to submit expenses.
 
-![[nepense_dashboard_overview_create_report_v1.png]]
+![[docs/users/assets/nepense_dashboard_overview_create_report_v1.png]]
 
 ---
 
@@ -95,7 +95,7 @@ This section provides an overview of monthly expenses.
 
 This area helps users view and analyze expenses once added.
 
-![[nepense_dashboard_overview_expense_breakdown_v1.png]]
+![[docs/users/assets/nepense_dashboard_overview_expense_breakdown_v1.png]]
 
 ---
 
