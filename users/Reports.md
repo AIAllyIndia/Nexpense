@@ -141,7 +141,7 @@ Below the search bar, you will see date options:
 - 
 ### Step 2: Edit Report Page Opens
 
-![[nexpense_reports_overview_edit_v1.jpeg]]
+![[nexpense_reports_overview_edit_v1.jpeg|500]]
 
 ### Step 3: Review Report Details
 

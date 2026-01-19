@@ -2,6 +2,10 @@
   "customOrder": {
     "/": {
       "children": [
+<<<<<<< HEAD
+        "Pasted image 20260119145318.png",
+=======
+>>>>>>> 79fc146a0924c3b76d10da74ed49feea8728b58a
         "company admin",
         "users",
         "README.md"
@@ -11,6 +15,12 @@
     "company admin": {
       "children": [
         "company admin/assets",
+<<<<<<< HEAD
+        "company admin/Introduction.md",
+        "company admin/Company Roles.md",
+        "company admin/Departments.md",
+        "company admin/Untitled.md"
+=======
         "company admin/Users.md",
         "company admin/Notifications.md",
         "company admin/Settings.md",
@@ -18,11 +28,32 @@
         "company admin/Company Dashboard",
         "company admin/Approval Matrix.md",
         "company admin/Introduction.md"
+>>>>>>> 79fc146a0924c3b76d10da74ed49feea8728b58a
       ],
       "sortOrder": "custom"
     },
     "company admin/assets": {
       "children": [
+<<<<<<< HEAD
+        "company admin/assets/nexpense_company_admin_expenses_Reports_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports__Filter1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports__Filter2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__E2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__E1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__C1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_D_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__C1.1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_E_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_E_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_C_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_C_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_login_v1 (2).png"
+=======
         "company admin/assets/nexpense_company_dashboard_summary_cards_v1.png",
         "company admin/assets/nexpense_company_dashboard_settings_v1.png",
         "company admin/assets/nexpense_company_dashboard_settings_notifications_v1.png",
@@ -104,6 +135,7 @@
         "company admin/Cost Centers/Cost Center.md",
         "company admin/Cost Centers/Stakeholders.md",
         "company admin/Cost Centers/Projects.md"
+>>>>>>> 79fc146a0924c3b76d10da74ed49feea8728b58a
       ],
       "sortOrder": "custom"
     },
@@ -121,6 +153,8 @@
     },
     "users/assets": {
       "children": [
+<<<<<<< HEAD
+=======
         "users/assets/nexpense_reports_overview_rate_v1.png",
         "users/assets/nexpense_reports_overview_edit_v1.jpeg",
         "users/assets/nexpense_reports_overview_edit_2_v1.jpeg",
@@ -131,6 +165,7 @@
         "users/assets/nexpense_reports_overview_Filters_v1 (2).png",
         "users/assets/nexpense_reports_overview_Delete_v1.png",
         "users/assets/nexpense_reports_overview_Delete_2_v1.jpeg",
+>>>>>>> 79fc146a0924c3b76d10da74ed49feea8728b58a
         "users/assets/nepense_dashboard_overview_1_v1.png",
         "users/assets/nepense_dashboard_overview_2_v1.png",
         "users/assets/nepense_dashboard_overview_cards_1_v1.png",
@@ -162,6 +197,19 @@
         "users/assets/nexpense_introduction_combo.png",
         "users/assets/nexpense_introduction_Select_T&C.png",
         "users/assets/nexpense_introduction_webstyle.png",
+<<<<<<< HEAD
+        "users/assets/nexpense_reports_overview__v1.jpeg",
+        "users/assets/nexpense_reports_overview_custom_v1.png",
+        "users/assets/nexpense_reports_overview_Delete_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_Delete_v1.png",
+        "users/assets/nexpense_reports_overview_edit_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_edit_v1.jpeg",
+        "users/assets/nexpense_reports_overview_Filters_v1 (2).png",
+        "users/assets/nexpense_reports_overview_Rate_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_rate_v1.png",
+        "users/assets/nexpense_reports_overview_Rdashboard_v1 (3).png",
+=======
+>>>>>>> 79fc146a0924c3b76d10da74ed49feea8728b58a
         "users/assets/nexpense_scan_reciept_1_v1.png",
         "users/assets/nexpense_scan_reciept_add_reciept1_v1.png",
         "users/assets/nexpense_scan_reciept_balance_1_v1.png",
