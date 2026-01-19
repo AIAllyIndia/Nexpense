@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "company admin/Users.md",
+                "file": "company admin/Settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Users"
+              "title": "Settings"
             }
           }
         ],
@@ -200,23 +200,31 @@
   },
   "active": "d2cde8d925039352",
   "lastOpenFiles": [
-    "super company admin/Untitled.md",
     "company admin/Users.md",
+    "company admin/Settings.md",
+    "users/assets/nexpense_reports_overview_rate_v1.png",
+    "users/assets/nexpense_reports_overview_edit_v1.jpeg",
+    "users/assets/nexpense_reports_overview_edit_2_v1.jpeg",
+    "users/assets/nexpense_reports_overview_custom_v1.png",
+    "users/assets/nexpense_reports_overview__v1.jpeg",
+    "users/assets/nexpense_reports_overview_Rdashboard_v1 (3).png",
+    "users/assets/nexpense_reports_overview_Rate_2_v1.jpeg",
+    "users/assets/nexpense_reports_overview_Filters_v1 (2).png",
+    "users/assets/nexpense_reports_overview_Delete_v1.png",
+    "users/assets/nexpense_reports_overview_Delete_2_v1.jpeg",
+    "company admin/Cost Centers/Cost Center.md",
+    "company admin/Cost Centers/Stakeholders.md",
+    "company admin/Cost Centers/Projects.md",
+    "company admin/Cost Centers",
+    "company admin/Company Dashboard/Company Admin.md",
+    "company admin/Company Dashboard",
+    "company admin/Approval Matrix.md",
+    "super company admin/Untitled.md",
     "super company admin/assets.md",
     "super company admin",
     "Untitled.md",
     "Untitled 1.md",
     "company admin/Notifications.md",
-    "company admin/assets/nexpense_company_admin_notifaction_filter.png",
-    "company admin/assets/Screenshot 2026-01-19 182515.png",
-    "company admin/assets/nexpense_company_admin_notification_view.jpeg",
-    "company admin/assets/nexpense_company_admin_notification_bell.png",
-    "company admin/assets/Screenshot 2026-01-19 181130.png",
-    "company admin/assets/nexpense_company_admin_leftmenunotification.png",
-    "company admin/assets/Screenshot 2026-01-19 180230.png",
-    "company admin/assets/nexpense_company_admin_enable_succesful.png",
-    "company admin/assets/Screenshot 2026-01-19 174059.png",
-    "company admin/assets/nexpense_company_admin_enable_user.png",
     "company admin/assets/nexpense_company_admin_select_createuser.png.~tmp",
     "company admin/assets",
     "users/Dashboard Overview.md",
@@ -236,10 +244,6 @@
     "Settings.md",
     "Expenses.md",
     "assets/Nexpense_select_Lan1.jpeg.~tmp",
-    "assets/Nexpense_select_webtheme.jpeg.~tmp",
-    "Scan Reciept.md",
-    "assets/nexpense_forgot_pass.jpg.~tmp",
-    "assets/nexpense_signin.png.~tmp",
-    "Dashboard Overview.md"
+    "assets/Nexpense_select_webtheme.jpeg.~tmp"
   ]
 }

@@ -2,7 +2,6 @@
   "customOrder": {
     "/": {
       "children": [
-        "super company admin",
         "company admin",
         "users",
         "README.md"
@@ -12,14 +11,52 @@
     "company admin": {
       "children": [
         "company admin/assets",
-        "company admin/Introduction.md",
+        "company admin/Users.md",
         "company admin/Notifications.md",
-        "company admin/Users.md"
+        "company admin/Settings.md",
+        "company admin/Cost Centers",
+        "company admin/Company Dashboard",
+        "company admin/Approval Matrix.md",
+        "company admin/Introduction.md"
       ],
       "sortOrder": "custom"
     },
     "company admin/assets": {
       "children": [
+        "company admin/assets/nexpense_company_dashboard_summary_cards_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_notifications_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_general_info_config_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_display_preference_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_company_logo_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_approvals_expenses_v1.png",
+        "company admin/assets/nexpense_company_dashboard_settings_appearance_v1.png",
+        "company admin/assets/nexpense_company_dashboard_overview_v1.PNG",
+        "company admin/assets/nexpense_company_dashboard_overview_3_v1.png",
+        "company admin/assets/nexpense_company_dashboard_overview_2_v1.png",
+        "company admin/assets/nexpense_company_dashboard_logs_2_v1.png",
+        "company admin/assets/nexpense_company_dashboard_logs_1_v1.PNG",
+        "company admin/assets/nexpense_company_dashboard_analytics_overview_v1.png",
+        "company admin/assets/nexpense_company_dashboard_analytics_3_v1.png",
+        "company admin/assets/nexpense_company_dashboard_analytics_2_v1.png",
+        "company admin/assets/nexpense_company_dashboard_analytics_1_v1.png",
+        "company admin/assets/nexpense_company_cost_center_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_users_1_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_project_access_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_dowload_template_1_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_3_v1.png",
+        "company admin/assets/nexpense_company_cost_center_stakeholders_2_v1.png",
+        "company admin/assets/nexpense_company_cost_center_projects_v1.png",
+        "company admin/assets/nexpense_company_cost_center_projects_create_v1.png",
+        "company admin/assets/nexpense_company_cost_center_projects_add_v1 .png",
+        "company admin/assets/nexpense_company_cost_center_projects_2_v1.png",
+        "company admin/assets/nexpense_company_cost_center_overview_v1.png",
+        "company admin/assets/nexpense_company_cost_center_create_2_v1.png",
+        "company admin/assets/nexpense_company_cost_center_create_1_v1.png",
+        "company admin/assets/nexpense_company_approval_matrix_parallel.png",
+        "company admin/assets/nexpense_company_approval_matrix_overview.png",
+        "company admin/assets/nexpense_company_approval_matrix_approver_types.png",
         "company admin/assets/nexpense_company_admin_action.png",
         "company admin/assets/nexpense_company_admin_addlevels.png",
         "company admin/assets/nexpense_company_admin_approval_chain.png",
@@ -56,10 +93,17 @@
       ],
       "sortOrder": "custom"
     },
-    "super company admin": {
+    "company admin/Company Dashboard": {
       "children": [
-        "super company admin/assets.md",
-        "super company admin/Untitled.md"
+        "company admin/Company Dashboard/Company Admin.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "company admin/Cost Centers": {
+      "children": [
+        "company admin/Cost Centers/Cost Center.md",
+        "company admin/Cost Centers/Stakeholders.md",
+        "company admin/Cost Centers/Projects.md"
       ],
       "sortOrder": "custom"
     },
@@ -77,6 +121,16 @@
     },
     "users/assets": {
       "children": [
+        "users/assets/nexpense_reports_overview_rate_v1.png",
+        "users/assets/nexpense_reports_overview_edit_v1.jpeg",
+        "users/assets/nexpense_reports_overview_edit_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_custom_v1.png",
+        "users/assets/nexpense_reports_overview__v1.jpeg",
+        "users/assets/nexpense_reports_overview_Rdashboard_v1 (3).png",
+        "users/assets/nexpense_reports_overview_Rate_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_Filters_v1 (2).png",
+        "users/assets/nexpense_reports_overview_Delete_v1.png",
+        "users/assets/nexpense_reports_overview_Delete_2_v1.jpeg",
         "users/assets/nepense_dashboard_overview_1_v1.png",
         "users/assets/nepense_dashboard_overview_2_v1.png",
         "users/assets/nepense_dashboard_overview_cards_1_v1.png",
