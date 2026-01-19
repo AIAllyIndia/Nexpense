@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "company admin/Reports.md",
+                "file": "company admin/Approval Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reports"
+              "title": "Approval Matrix"
             }
           }
         ]
@@ -184,6 +184,12 @@
   },
   "active": "316d1d6bdf2782f3",
   "lastOpenFiles": [
+    "company admin/Notifications.md",
+    "company admin/Reports.md",
+    "company admin/Settings.md",
+    "company admin/Users.md",
+    "company admin/Company Roles.md",
+    "company admin/Introduction.md",
     "company admin/assets/nexpense_company_disable_suucesful.png",
     "company admin/assets/nexpense_company_dashboard_summary_cards_v1.png",
     "company admin/assets/nexpense_company_dashboard_settings_v1.png",
@@ -194,10 +200,6 @@
     "company admin/assets/nexpense_company_dashboard_settings_approvals_expenses_v1.png",
     "company admin/assets/nexpense_company_dashboard_settings_appearance_v1.png",
     "company admin/assets/nexpense_company_dashboard_overview_v1.PNG",
-    "company admin/assets/nexpense_company_dashboard_overview_3_v1.png",
-    "company admin/Users.md",
-    "company admin/Settings.md",
-    "company admin/Notifications.md",
     "company admin/Cost Centers/Projects.md",
     "company admin/Cost Centers/Stakeholders.md",
     "company admin/Cost Centers/Cost Center.md",
@@ -205,10 +207,7 @@
     "company admin/Company Dashboard/Company Admin.md",
     "company admin/Company Dashboard",
     "company admin/Approval Matrix.md",
-    "company admin/Company Roles.md",
-    "company admin/Reports.md",
     "company admin/Departments.md",
-    "company admin/Introduction.md",
     "users/Reports.md",
     "users/Scan Receipt.md",
     "company admin/Untitled",
