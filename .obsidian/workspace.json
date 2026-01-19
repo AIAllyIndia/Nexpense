@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reports.md",
+                "file": "users/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reports"
+              "title": "Introduction"
             }
           }
         ]
@@ -185,9 +185,17 @@
   },
   "active": "6ce5f947fda83912",
   "lastOpenFiles": [
+    "users/Expenses.md",
+    "users/Dashboard Overview.md",
     "README.md",
-    "Introduction.md",
     "Reports.md",
+    "users/Settings.md",
+    "users/Scan Reciept.md",
+    "users/Reports.md",
+    "users/Introduction.md",
+    "users",
+    "assets/nepense_dashboard_overview_custom_v1.png",
+    "Introduction.md",
     "Settings.md",
     "assets/nexpense_expenses_v1.png",
     "assets/nepense_reports_overview_custom_v1.png",
@@ -202,7 +210,6 @@
     "assets/Nexpense_select_webtheme.jpeg",
     "assets/nexpense_select_theme1.jpeg",
     "Scan Reciept.md",
-    "Screenshot 2026-01-17 145315.png",
     "assets/nexpense_forgot_pass.jpg.~tmp",
     "assets/nexpense_signin.png.~tmp",
     "assets/nexpense_introduction_webstyle.png.~tmp",
