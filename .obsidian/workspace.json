@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a202064e81758f9",
+        "id": "ece802d72af1e81c",
         "type": "tabs",
         "children": [
           {
-            "id": "316d1d6bdf2782f3",
+            "id": "b41366dfe32bb169",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "company admin/Approval Matrix.md",
+                "file": "employee/Settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Approval Matrix"
+              "title": "Settings"
             }
           }
         ]
@@ -182,31 +182,41 @@
       "bases:Create new base": false
     }
   },
-  "active": "316d1d6bdf2782f3",
+  "active": "b41366dfe32bb169",
   "lastOpenFiles": [
+    "employee/Reports.md",
+    "employee/Create Report.md",
+    "employee/Advance Cash.md",
+    "employee/assests/nexpense_ employee_Advance_F_overview_1_v1.png",
+    "employee/assests/nexpense_ employee_Advance_F_overview_2_v1.png",
+    "employee/assests/Screenshot 2026-01-20 022304.png",
+    "employee/assests/Screenshot 2026-01-20 022244.png",
+    "employee/assests/nexpense_ employee_Advance_overview_2_v1.png",
+    "employee/assests/Screenshot 2026-01-20 020056.png",
+    "employee/assests/nexpense_ employee_Advance_overview_1_v1.png",
+    "employee/assests/nexpense_ employee_Advanse_overview_1_v1.png",
+    "employee/assests/Screenshot 2026-01-20 020036.png",
+    "employee/Pending Approvals.md",
+    "employee/assests/nexpense_ employee_Report_V_overview_2_v1.png",
+    "company admin/Settings.md",
+    "company admin/Introduction.md",
+    "company admin/Company Roles.md",
+    "employee/Settings.md",
+    "employee/Introduction.md",
+    "company admin/Users.md",
+    "company admin/Approval Matrix.md",
+    "employee/My Expenses.md",
+    "employee/Dashboard.md",
+    "employee/assests",
+    "employee",
     "company admin/Notifications.md",
     "company admin/Reports.md",
-    "company admin/Settings.md",
-    "company admin/Users.md",
-    "company admin/Company Roles.md",
-    "company admin/Introduction.md",
-    "company admin/assets/nexpense_company_disable_suucesful.png",
-    "company admin/assets/nexpense_company_dashboard_summary_cards_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_notifications_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_general_info_config_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_display_preference_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_company_logo_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_approvals_expenses_v1.png",
-    "company admin/assets/nexpense_company_dashboard_settings_appearance_v1.png",
-    "company admin/assets/nexpense_company_dashboard_overview_v1.PNG",
     "company admin/Cost Centers/Projects.md",
     "company admin/Cost Centers/Stakeholders.md",
     "company admin/Cost Centers/Cost Center.md",
     "company admin/Cost Centers",
     "company admin/Company Dashboard/Company Admin.md",
     "company admin/Company Dashboard",
-    "company admin/Approval Matrix.md",
     "company admin/Departments.md",
     "users/Reports.md",
     "users/Scan Receipt.md",
@@ -214,21 +224,11 @@
     "Untitled 1.md",
     "users/Introduction.md",
     "Introduction.md",
-    "Reports.md",
-    "users/Settings.md",
-    "users/Expenses.md",
-    "users/Dashboard Overview.md",
     "users/assets",
     "users",
     "company admin/assets",
     "company admin",
     "assets",
-    "Settings.md",
-    "Scan Reciept.md",
-    "Expenses.md",
-    "Dashboard Overview.md",
-    "assets/nexpense_reports_overview_Filters_v1 (2).png.~tmp",
-    "assets/nexpense_reports_overview_Filters_v1 (2).png.crdownload",
     "Untitled.canvas"
   ]
 }
