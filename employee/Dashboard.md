@@ -67,7 +67,7 @@ It helps you understand **where your money is spent**.
  ![[nexpense_employee_expensebreakdown.png]]
 
 ---
-## **Recent Reports 
+## **Recent Reports** 
 
 The **Recent Reports** section shows a list of your **latest expense reports**.  
 It helps you quickly check the **status and amount** of each report.
@@ -93,7 +93,7 @@ It helps you quickly check the **status and amount** of each report.
     
 - Useful when you have many reports
 
-![[nexpense_employee_viewall.png]]
+![[nexpense_employee_viewall (2).png]]
 
 ---
 ## **Exchange Rate Information – User Guide**
