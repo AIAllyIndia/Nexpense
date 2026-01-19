@@ -127,8 +127,7 @@ You can reset it easily using your registered email address.
 
 ## Getting Started
 
-> [[Dashboard Overview]]
 
 ![[nexpense_introductiom_gettingstarted.jpeg|400]]
 
-
+> You can proceed with [[Dashboard Overview]]
