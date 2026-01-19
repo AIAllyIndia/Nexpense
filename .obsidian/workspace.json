@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Settings.md",
+                "file": "Reports.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Settings"
+              "title": "Reports"
             }
           }
         ]
@@ -185,14 +185,16 @@
   },
   "active": "6ce5f947fda83912",
   "lastOpenFiles": [
+    "README.md",
+    "Introduction.md",
+    "Reports.md",
+    "Settings.md",
     "assets/nexpense_expenses_v1.png",
     "assets/nepense_reports_overview_custom_v1.png",
     "assets/nepense_reports_overview_Rdashboard_v1 (2).png",
     "assets/nepense_reports_overview_Filters_1_v1.png",
     "assets/nepense_reports_overview_1_v1.jpg",
-    "Reports.md",
     "Expenses.md",
-    "Introduction.md",
     "assets/Nexpense_select_Lan1.jpeg.~tmp",
     "assets/Nexpense_select_Lan1 (1).jpeg",
     "assets/Nexpense_select_Lan1.jpeg",
@@ -204,8 +206,6 @@
     "assets/nexpense_forgot_pass.jpg.~tmp",
     "assets/nexpense_signin.png.~tmp",
     "assets/nexpense_introduction_webstyle.png.~tmp",
-    "Settings.md",
-    "README.md",
     "Dashboard Overview.md"
   ]
 }
