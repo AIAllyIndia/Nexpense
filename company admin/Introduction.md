@@ -77,6 +77,6 @@ Your company’s data is encrypted and safe.
     
 - **AI-powered OCR**
 
-![[nexpense_company_admin_expenses_login_v1.png]]
+![[nexpense_company_admin_expenses_login_v1 (2).png]]
 
 > Click here to view the [[Company Admin]] 

@@ -117,4 +117,4 @@ At the bottom of the screen, the user can:
 7. Expense is added successfully
 
 > Click here to see all the [[Expenses]]
-> Click here to view [[Reports]]
+> Click here to view [[docs/users/Reports]]
