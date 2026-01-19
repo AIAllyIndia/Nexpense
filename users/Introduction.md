@@ -9,7 +9,7 @@ a. Pick a color that you like.
 b. This color will be used across the app buttons, headers, and highlights.
 
 
-![[nexpense_introduction_combo.png]]
+![[nexpense_select_theme1.jpeg|300]]
 
 
 #### 2. **Web Consistent Theme**
@@ -18,7 +18,7 @@ b. This color will be used across the app buttons, headers, and highlights.
     
 - Easy to use if you already use Nexpense on the web
 
-![[nexpense_introduction_webstyle.png|300]]
+![[Nexpense_select_webtheme.jpeg|350]]
 
 
 ---
@@ -31,7 +31,8 @@ b. This color will be used across the app buttons, headers, and highlights.
     
 - Tap **Continue** to proceed
 
-![[nexpense_select_language.png|270]]
+![[Nexpense_select_Lan1.jpeg|300]]
+
 
 ---
 ## **Welcome Back – Sign In to Nexpense**
