@@ -1,0 +1,121 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "Pasted image 20260119145318.png",
+        "company admin",
+        "users",
+        "README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "company admin": {
+      "children": [
+        "company admin/assets",
+        "company admin/Introduction.md",
+        "company admin/Company Roles.md",
+        "company admin/Departments.md",
+        "company admin/Untitled.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "company admin/assets": {
+      "children": [
+        "company admin/assets/nexpense_company_admin_expenses_Reports_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports__Filter1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Reports__Filter2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__E2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__E1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__C1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_D_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_Departments__C1.1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_E_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_E_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_C_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_C_1_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_2_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_company_roles_v1.png",
+        "company admin/assets/nexpense_company_admin_expenses_login_v1 (2).png"
+      ],
+      "sortOrder": "custom"
+    },
+    "users": {
+      "children": [
+        "users/assets",
+        "users/Dashboard Overview.md",
+        "users/Expenses.md",
+        "users/Introduction.md",
+        "users/Reports.md",
+        "users/Scan Receipt.md",
+        "users/Settings.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "users/assets": {
+      "children": [
+        "users/assets/nepense_dashboard_overview_1_v1.png",
+        "users/assets/nepense_dashboard_overview_2_v1.png",
+        "users/assets/nepense_dashboard_overview_cards_1_v1.png",
+        "users/assets/nepense_dashboard_overview_cards_2_v1.jpg",
+        "users/assets/nepense_dashboard_overview_cards_3_v1.jpg",
+        "users/assets/nepense_dashboard_overview_cards_4_v1.jpg",
+        "users/assets/nepense_dashboard_overview_create_report_v1.png",
+        "users/assets/nepense_dashboard_overview_custom_v1.png",
+        "users/assets/nepense_dashboard_overview_expense_breakdown_v1.png",
+        "users/assets/nepense_reports_overview_1_v1.jpg",
+        "users/assets/nepense_reports_overview_custom_v1.png",
+        "users/assets/nepense_reports_overview_Filters_1_v1.png",
+        "users/assets/nepense_reports_overview_Rdashboard_v1 (2).png",
+        "users/assets/nexoense_introduction_colors_style.png",
+        "users/assets/nexpense_dashboard_overview_settings_1_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_preferences_profle__edit_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_preferences_profle_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_preferences_theme_colorsv1.png",
+        "users/assets/nexpense_dashboard_overview_settings_preferences_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_security_about_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_security_advance_cash_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_security_help&support_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_security_nootifications_v1.png",
+        "users/assets/nexpense_dashboard_overview_settings_security_password_v1.png",
+        "users/assets/nexpense_expenses_v1.png",
+        "users/assets/nexpense_forgot_pass.jpg",
+        "users/assets/nexpense_forgot_pass_2.jpg",
+        "users/assets/nexpense_introductiom_gettingstarted.jpeg",
+        "users/assets/nexpense_introduction_combo.png",
+        "users/assets/nexpense_introduction_Select_T&C.png",
+        "users/assets/nexpense_introduction_webstyle.png",
+        "users/assets/nexpense_reports_overview__v1.jpeg",
+        "users/assets/nexpense_reports_overview_custom_v1.png",
+        "users/assets/nexpense_reports_overview_Delete_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_Delete_v1.png",
+        "users/assets/nexpense_reports_overview_edit_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_edit_v1.jpeg",
+        "users/assets/nexpense_reports_overview_Filters_v1 (2).png",
+        "users/assets/nexpense_reports_overview_Rate_2_v1.jpeg",
+        "users/assets/nexpense_reports_overview_rate_v1.png",
+        "users/assets/nexpense_reports_overview_Rdashboard_v1 (3).png",
+        "users/assets/nexpense_scan_reciept_1_v1.png",
+        "users/assets/nexpense_scan_reciept_add_reciept1_v1.png",
+        "users/assets/nexpense_scan_reciept_balance_1_v1.png",
+        "users/assets/nexpense_scan_reciept_category_1_v1.png",
+        "users/assets/nexpense_scan_reciept_expense_details_1_v1.png",
+        "users/assets/nexpense_scan_reciept_final_1_v1.png",
+        "users/assets/nexpense_scan_reciept_header_1_v1.png",
+        "users/assets/nexpense_scan_reciept_reciepts_1_v1.jpeg",
+        "users/assets/nexpense_scan_reciept_select_report_v1.jpeg",
+        "users/assets/Nexpense_select_Lan1.jpeg",
+        "users/assets/nexpense_select_language.png",
+        "users/assets/nexpense_select_theme1.jpeg",
+        "users/assets/Nexpense_select_webtheme.jpeg",
+        "users/assets/nexpense_signin.png"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}
