@@ -19,7 +19,7 @@ At the top of the screen, you’ll see:
     
 - **Notification** — For alerts or updates
     
-- [[Settings]] — For managing profile and app settings
+- [[docs/users/Settings]] — For managing profile and app settings
     
 
 This section gives you a personalized welcome and easy access to notifications and settings.
