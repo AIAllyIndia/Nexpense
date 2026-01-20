@@ -110,7 +110,7 @@ When you click the **ⓘ info icon** on the dashboard, the **Exchange Rate Infor
 👉 Explains how foreign expenses are converted
 
 ---
-## **Add Report Button 
+## **Add Report Button** 
 
 
 - The **purple “+” (Add Report)** button is located at the **bottom-right corner** of the Dashboard.
@@ -125,7 +125,7 @@ When you click the **Add Report (+)** button:
 - You can start creating a **new expense report** immediately.
 
 ---
-## **Add Expense Button
+## **Add Expense Button**
 
 - The **green “+” (Add Expense)** button is located at the **bottom-right corner** of the Dashboard.
     

@@ -112,3 +112,4 @@ ___
 - The report details page will open.
     
 - You can see report information, expenses, total amount, and current status.
+> Click here to view complete report [[My Expenses#**Expense Report Summary**]]

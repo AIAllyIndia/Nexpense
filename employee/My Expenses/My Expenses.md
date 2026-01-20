@@ -37,7 +37,7 @@ You can access **My Expenses** from the **left-side navigation menu** of the Emp
 
 ![[nexpense_my_expense_create_v1.png]]
 
-### **Expense Report Summary (Short Version)**
+### **Expense Report Summary
 
 This page gives a quick overview of all expenses included in your report.
 
