@@ -1,0 +1,2770 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Dashboard%20Overview/">
+      
+      
+        <link rel="next" href="../Create%20Expense%20Report/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Settings - Expense Scanner User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#accessing-settings" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Expense Scanner User Guide" class="md-header__button md-logo" aria-label="Expense Scanner User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Expense Scanner User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Settings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Expense Scanner User Guide" class="md-nav__button md-logo" aria-label="Expense Scanner User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Expense Scanner User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    All Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Company Admin
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Company Admin
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3" id="__nav_2_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organization
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Organization
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Organization/Departments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Departments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Organization/Company%20Roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Company Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Organization/Users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_4" id="__nav_2_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Configuration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Configuration/Approval%20Matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Approval Matrix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Configuration/Categories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_5" id="__nav_2_1_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engagement
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Engagement
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Engagement/Cost%20Center/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Center
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Engagement/Projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Engagement/Stakeholders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_7" id="__nav_2_1_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vouchers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vouchers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Vouchers/Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Vouchers/Manage%20Vouchers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manage Vouchers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Vouchers/Return%20Requests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Return Requests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notifications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../company%20admin/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employee
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Employee
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    My Expenses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    My Expenses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/My%20Expenses/Add%20Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/My%20Expenses/My%20Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    My Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Create%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Advance%20Cash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advance Cash
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_7" id="__nav_2_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pending Approvals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pending Approvals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Pending%20Approvals/Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Pending%20Approvals/Pending%20Approvals%20Card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pending Approvals Card
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_8" id="__nav_2_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Settings
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Settings/Help%20%26%20Support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Help & Support
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Settings/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../employee/Settings/Preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preferences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Users
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dashboard%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-menu-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings Menu Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings Menu Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-user-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. User Profile
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. User Profile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editable-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editable Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-editable-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Non-Editable Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-security-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Security &amp; Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-app-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. App Preferences
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. App Preferences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-theme-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        a) Theme Style
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="a) Theme Style">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#premium-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Premium Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-consistent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Web Consistent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-colors-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        b) Colors &amp; Themes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-brightness-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        c) Brightness Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-default-currency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        d) Default Currency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        e) Language
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-advance-cash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Advance Cash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-approvals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Approvals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-help-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Help &amp; Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. About
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-log-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Log Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Create%20Expense%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Expense Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Scan%20Receipt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scan Receipt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessing Settings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-menu-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings Menu Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings Menu Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-user-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. User Profile
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. User Profile">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editable-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editable Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-editable-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Non-Editable Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-security-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Security &amp; Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Notifications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-app-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. App Preferences
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. App Preferences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-theme-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        a) Theme Style
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="a) Theme Style">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#premium-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Premium Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-consistent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        • Web Consistent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-colors-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        b) Colors &amp; Themes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-brightness-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        c) Brightness Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-default-currency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        d) Default Currency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        e) Language
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-advance-cash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Advance Cash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-approvals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Approvals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-help-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Help &amp; Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. About
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-log-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Log Out
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Settings</h1>
+
+<hr />
+<p>The <strong>Settings</strong> section allows users to manage their account, app preferences, notifications, and support options. It can be accessed directly from the Dashboard.</p>
+<p>![[nexpense_dashboard_overview_settings_1_v1.png|500]]</p>
+<h2 id="accessing-settings"><strong>Accessing Settings</strong></h2>
+<ol>
+<li>
+<p>From the Dashboard, tap the <strong>Settings icon</strong> (⚙️) located in the top-right corner.</p>
+</li>
+<li>
+<p>This opens the <strong>Settings</strong> screen, where you can customize and manage various aspects of your account and the application.</p>
+</li>
+</ol>
+<hr />
+<h2 id="settings-menu-options"><strong>Settings Menu Options</strong></h2>
+<p>The Settings screen includes the following sections:</p>
+<h3 id="1-user-profile"><strong>1. User Profile</strong></h3>
+<ul>
+<li>
+<p>Displays your profile name and email address.</p>
+</li>
+<li>
+<p>Tap to view or update personal details such as profile information (if supported).</p>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_preferences_profle_v1.png]]</p>
+<p>Tap <strong>Edit</strong> in the top-right corner to enter edit mode.</p>
+<p>In edit mode:</p>
+<h4 id="editable-fields">Editable Fields</h4>
+<ul>
+<li><strong>Phone Number</strong><br />
+    (This is typically user-editable unless restricted by admin)</li>
+</ul>
+<h4 id="non-editable-fields">Non-Editable Fields</h4>
+<p>These details are locked and can only be updated by your organization admin:</p>
+<ul>
+<li>
+<p>Full Name</p>
+</li>
+<li>
+<p>Email Address</p>
+</li>
+<li>
+<p>Company</p>
+</li>
+<li>
+<p>Department</p>
+</li>
+<li>
+<p>Employee ID</p>
+</li>
+<li>
+<p>Role</p>
+</li>
+</ul>
+<p>Each locked field includes a small <strong>info icon (i)</strong> to indicate admin control.</p>
+<hr />
+<h3 id="2-security-password"><strong>2. Security &amp; Password</strong></h3>
+<ul>
+<li>
+<p>Manage your login credentials.</p>
+</li>
+<li>
+<p>Change your password.</p>
+</li>
+<li>
+<p>Helps keep your account safe and secure.</p>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_security_about_v1.png]]</p>
+<hr />
+<h3 id="3-notifications"><strong>3. Notifications</strong></h3>
+<ul>
+<li>
+<p>Control all app-related alerts and reminders.</p>
+</li>
+<li>
+<p>Customize what you want to be notified about .</p>
+<ul>
+<li>New Expense Added**Notifies you when a new expense is created.</li>
+</ul>
+</li>
+<li>Expense Approved / Rejected**<ul>
+<li>Alerts you when an expense is approved or rejected by the admin.</li>
+</ul>
+</li>
+<li>Monthly Summary Report**<ul>
+<li>Sends a monthly summary via email and in-app notifications.</li>
+</ul>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_security_nootifications_v1.png]]</p>
+<hr />
+<h3 id="4-app-preferences"><strong>4. App Preferences</strong></h3>
+<ul>
+<li>
+<p>Modify general app settings.</p>
+</li>
+<li>
+<p>Manage:</p>
+<ul>
+<li>
+<p>App theme (light/dark)</p>
+</li>
+<li>
+<p>Currency display</p>
+</li>
+<li>
+<p>Default behavior for actions</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Allows you to personalize the app according to your usage style.</p>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_preferences_v1.png]]</p>
+<h4 id="a-theme-style"><strong>a) Theme Style</strong></h4>
+<p>You can choose between two interface styles:</p>
+<h5 id="premium-apps"><strong>• Premium Apps</strong></h5>
+<ul>
+<li>Modern rounded UI</li>
+<li>Soft gradients and clean design</li>
+<li>Available in <strong>Light</strong> and <strong>Dark</strong> modes</li>
+</ul>
+<h5 id="web-consistent"><strong>• Web Consistent</strong></h5>
+<ul>
+<li>Matches the look and feel of the web dashboard</li>
+<li>Ideal for users who work across both platforms </li>
+<li>Available in <strong>Light</strong> and <strong>Dark</strong> modes
+This allows users to pick a UI style they are most comfortable with.</li>
+</ul>
+<h4 id="b-colors-themes"><strong>b) Colors &amp; Themes</strong></h4>
+<p>This section lets users <strong>customize the color palette</strong> used across the app.
+- Modify accent colors
+- Adjust gradients 
+- Personalize the feel of the interface<br />
+- Works in both theme styles
+- Ideal for branding or comfort-based customization
+This feature is especially useful for users who prefer a specific visual aesthetic.
+    #### <strong>1. Theme Style</strong>
+    At the top of the Colors &amp; Themes screen, users can select the theme style they want to customize:
+        <strong>• Premium App</strong>
+            - Soft, rounded modern UI
+            - Gradients and richer color transitions          <br />
+            - Light &amp; Dark mode options
+        <strong>• Web Consistent</strong>
+            - Matches the Nexpense web application's design
+            - Cleaner, sharper UI
+            - Available in Light &amp; Dark modes
+This selection determines how the chosen colors will be applied across the app.</p>
+<pre><code>#### **2. Default Colors**
+</code></pre>
+<p>The app provides a set of pre-designed color presets under <strong>Default Colors</strong>, grouped into two categories.
+        <strong>a) Solid Colors</strong>
+        These are single-color options used for:
+        - Buttons
+        - Highlights
+        - Navigation accent
+        - Key UI elements
+        Available solid colors include: 
+        - Indigo  <br />
+        - Purple      <br />
+        - Green  <br />
+        - Cyan
+    Users can tap any color to apply it instantly.
+    <br>
+        <strong>b) Gradient Colors</strong>
+    Gradient colors offer a more visually dynamic experience.
+    Available options include:
+        - Blue gradient<br />
+        - Green gradient <br />
+        - Orange-to-red gradient<br />
+        - Indigo-to-cyan gradient
+    Selecting a gradient theme applies it across supported UI components, giving a premium feel.
+    #### <strong>3. Custom Colors</strong>
+    This section allows users to craft their own unique color themes.</p>
+<p>![[nexpense_dashboard_overview_settings_preferences_theme_colorsv1.png]]</p>
+<h4 id="c-brightness-mode"><strong>c) Brightness Mode</strong></h4>
+<p>Choose how the app handles brightness:
+    - <strong>Light</strong> → Always uses light mode
+    - <strong>Dark</strong> → Always uses dark mode
+    - <strong>System</strong> → Automatically follows the phone’s system theme
+    This helps users adapt the app to their preferred viewing comfort.</p>
+<h4 id="d-default-currency"><strong>d) Default Currency</strong></h4>
+<p>Choose the primary currency used across the app.
+Examples:
+- INR (₹)
+- USD ($)
+- EUR (€)
+- GBP (£)
+ The selected currency is applied to:
+- Expenses 
+- Reports
+- Approvals
+- Exported data</p>
+<h4 id="e-language"><strong>e) Language</strong></h4>
+<p>Choose the language used for:</p>
+<ul>
+<li>
+<p>Menus</p>
+</li>
+<li>
+<p>Buttons</p>
+</li>
+<li>
+<p>Labels</p>
+</li>
+<li>
+<p>Notifications</p>
+</li>
+</ul>
+<p>The current screenshot shows <strong>English</strong>, but this field will list all supported languages.</p>
+<hr />
+<h3 id="6-advance-cash"><strong>6. Advance Cash</strong></h3>
+<p><strong>1. Create Advance Request</strong>
+To request advance cash, fill in the following fields:
+- <strong>Amount</strong> – Enter the advance amount you need.
+- <strong>Currency</strong> – Choose the preferred currency. <br />
+- <strong>Project (Optional)</strong> – Select a project if the advance is for specific work.
+- <strong>Cost Centre (Optional)</strong> – Link the request to a cost centre if required.  </p>
+<p>Once completed, tap <strong>Create</strong> to submit the request.</p>
+<p><strong>2. My Advances</strong>
+Below the form, you can view all your previously requested advances.
+This section will show:
+- Pending advances 
+- Approved advances 
+- Rejected advances
+If you haven’t requested any yet, it will display:<br />
+<strong>“No advances yet.”</strong></p>
+<p>![[nexpense_dashboard_overview_settings_security_advance_cash_v1.png]]</p>
+<hr />
+<h3 id="7-approvals"><strong>7. Approvals</strong></h3>
+<ul>
+<li>
+<p>View and manage all expense reports that require your action.</p>
+</li>
+<li>
+<p>Stay informed about items awaiting your approval.</p>
+<ul>
+<li>
+<p><strong>Pending Approvals</strong></p>
+<ul>
+<li>Shows all reports that need to be reviewed and acted upon.</li>
+</ul>
+</li>
+<li>
+<p><strong>Approved by Me</strong></p>
+<ul>
+<li>Lists all the expense reports you have previously approved.</li>
+</ul>
+</li>
+<li>
+<p><strong>Rejected by Me</strong></p>
+<ul>
+<li>Displays reports you rejected along with the rejection reasons.</li>
+</ul>
+</li>
+<li>
+<p><strong>Changes Requested</strong></p>
+<ul>
+<li>Shows reports where you requested modifications from the submitter.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Take quick actions on each report.</p>
+<ul>
+<li>
+<p><strong>Approve</strong></p>
+<ul>
+<li>Finalize and accept the submitted expense report.</li>
+</ul>
+</li>
+<li>
+<p><strong>Reject</strong></p>
+<ul>
+<li>Decline the report with a reason.</li>
+</ul>
+</li>
+<li>
+<p><strong>Request Changes</strong></p>
+<ul>
+<li>Ask the submitter to update or correct specific details.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_approvals_v1.png]]</p>
+<hr />
+<h3 id="8-help-support"><strong>8. Help &amp; Support</strong></h3>
+<ul>
+<li>
+<p>Contact the support team.</p>
+</li>
+<li>
+<p>Access FAQs and troubleshooting resources.</p>
+</li>
+<li>
+<p>Useful when you face issues or need assistance.</p>
+</li>
+</ul>
+<p>![[nexpense_dashboard_overview_settings_help_support_v1.png]]</p>
+<hr />
+<h3 id="9-about"><strong>9. About</strong></h3>
+<p><strong>App Details</strong>
+- <strong>App Name:</strong> Expense Tracker 
+- <strong>Version:</strong> v1.0.0 (Build 1)
+- <strong>Company:</strong> Ai Ally Pvt. Ltd.</p>
+<p><strong>Contact</strong>
+- <strong>Email:</strong> support@expense-tracker.app
+- <strong>Phone:</strong> +91 98765 43210</p>
+<p><strong>Legal</strong>
+- <strong>Terms of Service</strong>
+- <strong>Privacy Policy</strong>
+- <strong>Open Source Licenses</strong></p>
+<p><strong>Description</strong>
+A short overview of the app explaining it helps scan receipts, categorize expenses, and manage petty cash efficiently.</p>
+<p>![[nexpense_dashboard_overview_settings_about_v1.png]]</p>
+<hr />
+<h3 id="10-log-out"><strong>10. Log Out</strong></h3>
+<ul>
+<li>
+<p>Safely sign out of your account.</p>
+</li>
+<li>
+<p>Recommended when switching devices or for security reasons.</p>
+</li>
+</ul>
+<blockquote>
+<p>To know more about creating expenses click on [[Scan Receipt]]</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
