@@ -201,6 +201,7 @@
   },
   "active": "fc942b004fa1d106",
   "lastOpenFiles": [
+    "vercel.json",
     "site/company admin/Engagement/Projects/index.html",
     "site/company admin/Engagement/Stakeholders/index.html",
     "site/company admin/Engagement/Cost Center/index.html",
@@ -211,7 +212,6 @@
     "site/404.html",
     "site/assets/javascripts/workers/search.2c215733.min.js",
     "site/assets/javascripts/workers/search.2c215733.min.js.map",
-    "site/assets/stylesheets/palette.ab4e12ef.min.css.map",
     "site/assets/images/favicon.png",
     "docs/Index.md",
     "docs/company admin/Vouchers/Return Requests.md",
