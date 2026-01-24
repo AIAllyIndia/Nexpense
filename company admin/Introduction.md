@@ -79,4 +79,4 @@ Your company’s data is encrypted and safe.
 
 ![[nexpense_company_admin_expenses_login_v1 (2).png]]
 
-> Click here to view the [[Company Admin]] 
+> Click here to view the [[docs/company admin/Dashboard]] 

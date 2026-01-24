@@ -1,6 +1,12 @@
 The **Workflow Builder** allows company admins to design a custom approval flow for reports.  
 You can add one or multiple approval levels and decide **who approves**, **when they approve**, and **under what conditions**.
 
+##### **Where to Find It**
+
+From the left menu, click **Configuration → Approval Matrix** to open your approval dashboard.
+
+![[nexpense_company_approval_matrix_v1.png]]
+
 #### **What You Can Do Here**
 
 - **Create approval levels** (Level 1, Level 2, Level 3, etc.)

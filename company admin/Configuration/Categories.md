@@ -1,5 +1,10 @@
 This section lets you manage all expense categories used in your company.
 
+##### **Where to Find It**
+
+From the left menu, click **Configuration → Categories** to open your approval dashboard.
+
+![[nexpense_company_admin_categories_v1.png]]
 ##### **What You Can Do**
 
 - **View all categories** — each shows its name, code, description, and status.

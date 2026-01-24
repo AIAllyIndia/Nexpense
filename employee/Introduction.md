@@ -73,4 +73,4 @@ If you forget your NexPense password, you can reset it easily by following these
 
 ![[nexpense_employe_dashboard2.png]]
 
-You can proceed with [[Dashboard]]
+You can proceed with [[docs/employee/Dashboard]]

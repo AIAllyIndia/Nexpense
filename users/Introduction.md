@@ -128,6 +128,6 @@ You can reset it easily using your registered email address.
 ## Getting Started
 
 
-![[nexpense_introductiom_gettingstarted.jpeg|400]]
+![[nexpense_introductiom_gettingstarted.jpeg|300]]
 
 > You can proceed with [[Dashboard Overview]]

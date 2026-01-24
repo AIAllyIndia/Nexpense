@@ -1,7 +1,7 @@
 On the left menu, under **Cost Centres**, you will see **Stakeholders**.  
 Clicking on it opens the project management page.
 
-![[nexpense_company_cost_center_stakeholders_v1.png|205]]
+![[nexpense_company_cost_center_stakeholders_v1.png]]
 
 This section allows company admins to manage the people involved in projects and cost centres.
 

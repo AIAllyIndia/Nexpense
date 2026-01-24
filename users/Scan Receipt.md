@@ -1,7 +1,7 @@
 User logs into the NexPense mobile application and lands on the dashboard.
 User taps on the **“📷” icon** from the bottom navigation bar to start scanning a receipt.
 
-![[docs/users/assets/nepense_dashboard_overview_1_v1.png|205]]
+![[docs/users/assets/nepense_dashboard_overview_1_v1.png]]
 
 ## 1. Screen Header & Navigation
 
@@ -117,4 +117,4 @@ At the bottom of the screen, the user can:
 7. Expense is added successfully
 
 > Click here to see all the [[Expenses]]
-> Click here to view [[docs/users/Reports]]
+> Click here to view [[docs/users/Reports|Reports]]

@@ -1,9 +1,10 @@
 The **Settings** section allows employees to manage their personal preferences and customize how NexPense works for them.
+
+---
 Go to the left menu → click **Settings** (highlighted in green).  
 This will open all your personal preferences in one place.
 
 ![[nexpense_employee_settings_v1.png|205]]
-
 ### **What you can do:**
 
 - **View & update your profile**  
@@ -45,7 +46,7 @@ The **Profile** section lets you view and update your personal information.
 
 ![[nexpense_employee_settings_profile_v1.png]]
 
-
+---
 ### Notifications
 Manage how you receive updates in the app.
 
@@ -66,6 +67,7 @@ Toggle each option **ON/OFF** based on your preference.
 
 ![[nexpense_employee_settings_notifications_v1.png]]
 
+---
 ### **Preferences**
 
 Customize how the app looks and works for you.
@@ -89,7 +91,7 @@ Use these options to personalize your experience and make the app easier to use.
 
 ![[nexpense_employee_settings_preferences_v1.png]]
 
-
+---
 ### **Security**
 
 Use this section to update your account password and keep your profile safe.
@@ -115,21 +117,31 @@ Use this section to update your account password and keep your profile safe.
 
 ![[nexpense_employee_settings_security_v1.png]]
 
+---
 ### **About**
 
-This section provides key information about the NexPense app.
+The **About NexPense** page gives you a brief overview of the platform and its key features.
 
-##### **What You’ll Find**
+##### **What You’ll See on This Page**
 
-- **App Overview** – Learn what NexPense does: AI-powered receipt scanning and smart expense tracking.
+- **Modern Platform**  
+    AI-powered receipt scanning and smart expense tracking.
     
-- **Security & Performance** – Details about fast and secure workflows.
+- **Secure & Fast**  
+    Enterprise-level security and quick approval workflows.
     
-- **App Version** – Current version and build information.
-    
-- **Contact Support** – Email and phone details for assistance.
+- **App Version**  
+    View the current version you’re using (e.g., _v1.0.0 – Build 1_).
+#### **View Full Details**
+
+Click **“View Full About NexPense”** to see complete platform information.
+##### **Support Contact**
+
+For help or questions, email: **operationsteam@aially.in**
 
 ![[nexpense_employee_settings_about_v1.png]]
+
+---
 ### **Privacy**
 
 View how NexPense handles and protects your personal data.
@@ -147,6 +159,9 @@ View how NexPense handles and protects your personal data.
 
 ![[nexpense_employee_settings_privacy_v1.png]]
 
+> You can view privacy policy in detail by clicking on the View Full Privacy Policy button.
+
+---
 ### **Terms**
 
 View the legal terms and conditions for using NexPense.
@@ -164,6 +179,9 @@ View the legal terms and conditions for using NexPense.
 
 ![[nexpense_employee_settings_terms_v1.png]]
 
+> You can view terms and conditions in detail by clicking on the View Full Terms of Service button.
+
+---
 ### **FAQ**
 
 The FAQ section provides quick answers to common questions about using NexPense.
@@ -182,6 +200,9 @@ The FAQ section provides quick answers to common questions about using NexPense.
 
 ![[nexpense_employee_settings_faqs_v1.png]]
 
+> You can view all the FAQs by clicking on the View Full FAQ button. Click here to know more [[Help & Support]]
+
+---
 ### **Logout**
 
 Use the **Logout** button (at the bottom of the menu) to safely sign out of your NexPense account.  

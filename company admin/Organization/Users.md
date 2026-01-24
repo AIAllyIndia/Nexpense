@@ -1,10 +1,10 @@
 ## Opening User Management  :
 
-![[nexpense_company_admin_userclick (2).png|200]]
+![[nexpense_company_admin_userclick_2_v1.png]]
 
 1. On the **left-side menu**, you will see different options.
     
-2. Click on **Users** 👥.
+2. Click on **Organization → Users** 👥.
     
 3. The **User Management** screen will open.
 

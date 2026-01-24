@@ -1,9 +1,9 @@
 The **Cost Centres Management** page allows you to create, view, and manage different cost centres in your company.  
 Cost centres help track spending, assign budgets, and organise expenses across departments.
 
-![[nexpense_company_cost_center_overview_v1.png|205]]
+![[nexpense_company_cost_center_v1.png|]]
 
-![[nexpense_company_cost_center_v1.png]]
+![[nexpense_company_cost_center_overview_v1.png]]
 
 Each card shows a cost centre with the following details:
 **1. Name & Code**

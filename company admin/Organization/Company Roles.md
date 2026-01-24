@@ -10,9 +10,9 @@ ___
 
 - In the left navigation panel, scroll if needed.
     
-- Find the menu option **Company Roles**.
+- Find the menu option **Organization → Company Roles**.
 
-![[nexpense_company_admin_expenses_company_roles_v1.png|250]]
+![[nexpense_company_admin_expenses_company_roles_v1.png]]
 
 ### Step 3: Click Company Roles
 ### Step 4: View Company Roles Page

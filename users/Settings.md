@@ -2,7 +2,7 @@
 ---
 The **Settings** section allows users to manage their account, app preferences, notifications, and support options. It can be accessed directly from the Dashboard.
 
-![[nexpense_dashboard_overview_settings_1_v1.png]]
+![[nexpense_dashboard_overview_settings_1_v1.png|500]]
 
 ## **Accessing Settings**
 
@@ -54,9 +54,6 @@ These details are locked and can only be updated by your organization admin:
     
 
 Each locked field includes a small **info icon (i)** to indicate admin control.
-
-![[nexpense_dashboard_overview_settings_preferences_profle__edit_v1.png]]
-
 
 ---
 
@@ -219,8 +216,45 @@ If you haven’t requested any yet, it will display:
 ![[nexpense_dashboard_overview_settings_security_advance_cash_v1.png]]
 
 ---
-### **6. Help & Support**
+### **7. Approvals** 
+- View and manage all expense reports that require your action.
+    
+- Stay informed about items awaiting your approval.
+    
+    - **Pending Approvals**
+        
+        - Shows all reports that need to be reviewed and acted upon.
+            
+    - **Approved by Me**
+        
+        - Lists all the expense reports you have previously approved.
+            
+    - **Rejected by Me**
+        
+        - Displays reports you rejected along with the rejection reasons.
+            
+    - **Changes Requested**
+        
+        - Shows reports where you requested modifications from the submitter.
+            
+- Take quick actions on each report.
+    
+    - **Approve**
+        
+        - Finalize and accept the submitted expense report.
+            
+    - **Reject**
+        
+        - Decline the report with a reason.
+            
+    - **Request Changes**
+        
+        - Ask the submitter to update or correct specific details.
 
+![[nexpense_dashboard_overview_settings_approvals_v1.png]]
+
+---
+### **8. Help & Support**
 
 - Contact the support team.
     
@@ -228,12 +262,11 @@ If you haven’t requested any yet, it will display:
     
 - Useful when you face issues or need assistance.
 
-![[nexpense_dashboard_overview_settings_security_help&support_v1.png]]
+![[nexpense_dashboard_overview_settings_help_support_v1.png]]
 
 
-
-
-### **7. About**
+---
+### **9. About**
 **App Details**
 - **App Name:** Expense Tracker	
 - **Version:** v1.0.0 (Build 1)
@@ -251,11 +284,10 @@ If you haven’t requested any yet, it will display:
 **Description**
 A short overview of the app explaining it helps scan receipts, categorize expenses, and manage petty cash efficiently.
     
-![[nexpense_dashboard_overview_settings_security_about_v1.png]]
+![[nexpense_dashboard_overview_settings_about_v1.png]]
 
 ---
-
-### **8. Log Out**
+### **10. Log Out**
 
 - Safely sign out of your account.
     

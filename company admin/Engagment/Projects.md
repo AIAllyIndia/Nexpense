@@ -3,7 +3,7 @@ Projects allow you to track spending, assign budgets, and involve specific stake
 On the left menu, under **Cost Centres**, you will see **Projects**.  
 Clicking on it opens the project management page.
 
-![[nexpense_company_cost_center_projects_v1.png|205]]
+![[nexpense_company_cost_center_projects_v1.png]]
 
 Each project card shows:
 **1. Project Name & Code**: Helps identify the project quickly.

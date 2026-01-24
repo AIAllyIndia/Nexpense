@@ -10,7 +10,7 @@ Notifications help admins stay informed about **important system updates and act
     
 3. The Notifications screen will open.
 
-![[nexpense_company_admin_leftmenunotification.png|250]]
+![[docs/employee/assests/nexpense_company_admin_left_menu_notification_v1.png|250]]
     
 
 ---

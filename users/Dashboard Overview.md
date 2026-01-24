@@ -2,7 +2,7 @@ The **Dashboard** is the home screen of the Nexpense app by Ai Ally.
 It provides a quick summary of your expense activity, pending actions, and navigation shortcuts.
 
 <div style="text-align: center;">
-    <img src="nepense_dashboard_overview_1_v1.png" width="205">
+    <img src="nepense_dashboard_overview_1_v1.png" width="">
 </div>
 
 

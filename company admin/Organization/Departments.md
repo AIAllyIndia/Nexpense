@@ -10,7 +10,7 @@ ___
 
 - In the left-side menu, scroll if needed.
     
-- Find **Departments**.
+- Find **Organization → Departments**.
 
 ### Step 3: Click Departments
 
@@ -18,7 +18,7 @@ ___
     
 - The **Departments management page** opens.
 
-![[nexpense_company_admin_expenses_Departments__1_v1.png|250]]
+![[nexpense_company_admin_expenses_Departments_1_v1.png]]
 
 ### After Clicking **Departments** page looks like after clicking
  

@@ -1,7 +1,12 @@
 The **Company Settings** page allows admins to customize how the admin dashboard looks and how information is displayed.  
+On the left menu, under **Cost Centres**, you will see **Projects**.  
+Clicking on it opens the project management page.
+
+![[nexpense_company_dashboard_settings_v1.png|250]]
+
 Any changes you make here apply to your account and help you personalize your workspace.
 
-![[nexpense_company_dashboard_settings_v1.png]]
+![[nexpense_company_dashboard_settings_overview_v1.png]]
 
 ---
 
