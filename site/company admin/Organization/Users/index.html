@@ -1,0 +1,4549 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Departments/">
+      
+      
+        <link rel="next" href="../../Vouchers/Dashboard/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Users - Expense Scanner User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#opening-user-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Expense Scanner User Guide" class="md-header__button md-logo" aria-label="Expense Scanner User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Expense Scanner User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Users
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Expense Scanner User Guide" class="md-nav__button md-logo" aria-label="Expense Scanner User Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Expense Scanner User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    All Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Company Admin
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Company Admin
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notifications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Configuration/Approval%20Matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Approval Matrix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Configuration/Categories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Engagment/Cost%20Center/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Center
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Engagment/Projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Engagment/Stakeholders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholders
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Company%20Roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Company Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Departments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Departments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opening-user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opening User Management :
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search &amp; Filter Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Search &amp; Filter Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use Filters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filter Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filter Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#all-departments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Departments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#all-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-create-a-new-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a New User
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-create-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Create User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-fill-user-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Fill User Details
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Fill User Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#full-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Full Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirm-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirm Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phone (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-assign-role-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Assign Role &amp; Access
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Assign Role &amp; Access">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-select-company-roles-approval-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Select Company Roles (Approval Workflow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-select-department-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Select Department (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-create-the-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Create the User
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optional-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Import Users :
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-click-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Click “Import Users”
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nexpense_company_admin_importrequiredfile-2png500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ![[nexpense_company_admin_importrequiredfile (2).png|500]]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="![[nexpense_company_admin_importrequiredfile (2).png|500]]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-understand-file-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Understand File Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-download-template-recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Download Template (Recommended)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-upload-the-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Upload the File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Import Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-users-bulk-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Users &amp; Bulk Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selecting Users &amp; Bulk Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-select-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Select Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#available-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deactivate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deactivate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-actions-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Actions Menu (⋮)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit User
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-user-fields-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit User Fields Explained
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edit User Fields Explained">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-optional_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phone (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-level_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-roles-approval-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company Roles (Approval Workflow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#department-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Department (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-or-cancel-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save or Cancel Changes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Save or Cancel Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reset-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reset Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approval-chain-ai-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain (AI / Manual)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable User
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reset-password_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        **Reset Password
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="**Reset Password">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-reset-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Reset Password”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Message
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approval-chain-ai-manual_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain (AI / Manual)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Approval Chain (AI / Manual)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-open-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Open Approval Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approval-chain-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain Editor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-manual-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a Manual Approval Chain
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Create a Manual Approval Chain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-click-add-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Click “+ Add Level”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-choose-approval-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Choose Approval Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Choose Approval Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sequential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parallel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-select-approver-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Select Approver Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-add-more-levels-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Add More Levels (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-a-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove a Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-or-clear-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save or Clear Approval Chain
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Save or Clear Approval Chain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#save-manual-override" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Manual Override
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-fallback-to-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear (fallback to matrix)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-user_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable User
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-disable-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Disable a User
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Disable a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-disable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Disable User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enable User
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-enable-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Enable a User
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Enable a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nexpense_company_admin_enable_userpng" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ![[nexpense_company_admin_enable_user.png]]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="![[nexpense_company_admin_enable_user.png]]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-enable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Enable User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-notification_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vouchers/Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vouchers/Manage%20Vouchers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manage Vouchers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Vouchers/Return%20Requests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Return Requests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Employee
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Employee
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    My Expenses
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    My Expenses
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/My%20Expenses/Add%20Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/My%20Expenses/My%20Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    My Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Create%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Advance%20Cash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advance Cash
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_7" id="__nav_2_2_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pending Approvals
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pending Approvals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Pending%20Approvals/Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Pending%20Approvals/Pending%20Approvals%20Card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pending Approvals Card
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_8" id="__nav_2_2_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Settings
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Settings/Help%20%26%20Support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Help & Support
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Settings/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../employee/Settings/Preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preferences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Users
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Dashboard%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Create%20Expense%20Report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Expense Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Scan%20Receipt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scan Receipt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Expenses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expenses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../users/Reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opening-user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Opening User Management :
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search &amp; Filter Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Search &amp; Filter Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#search-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Use Filters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filter Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filter Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#all-departments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Departments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#all-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-create-a-new-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a New User
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-create-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Create User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-fill-user-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Fill User Details
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Fill User Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#full-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Full Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirm-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirm Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phone (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-assign-role-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Assign Role &amp; Access
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 4: Assign Role &amp; Access">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-select-company-roles-approval-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Select Company Roles (Approval Workflow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-select-department-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Select Department (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-create-the-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Create the User
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optional-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optional Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Import Users :
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-click-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Click “Import Users”
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nexpense_company_admin_importrequiredfile-2png500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ![[nexpense_company_admin_importrequiredfile (2).png|500]]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="![[nexpense_company_admin_importrequiredfile (2).png|500]]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-understand-file-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Understand File Requirements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-download-template-recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Download Template (Recommended)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-upload-the-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Upload the File
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-import-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Import Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-users-bulk-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Users &amp; Bulk Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selecting Users &amp; Bulk Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-select-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Select Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#available-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Activate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deactivate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deactivate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-actions-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Actions Menu (⋮)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Available Options
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit User
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-user-fields-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit User Fields Explained
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edit User Fields Explained">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-optional_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phone (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-level_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#company-roles-approval-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Company Roles (Approval Workflow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#department-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Department (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-or-cancel-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save or Cancel Changes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Save or Cancel Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reset-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reset Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approval-chain-ai-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain (AI / Manual)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable User
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reset-password_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        **Reset Password
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="**Reset Password">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-reset-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Reset Password”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Message
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approval-chain-ai-manual_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain (AI / Manual)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Approval Chain (AI / Manual)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-open-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Open Approval Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#approval-chain-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Approval Chain Editor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-manual-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Create a Manual Approval Chain
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Create a Manual Approval Chain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-click-add-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Click “+ Add Level”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-choose-approval-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Choose Approval Type
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Choose Approval Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sequential" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sequential
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parallel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallel
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-select-approver-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Select Approver Roles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-add-more-levels-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Add More Levels (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-a-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove a Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-or-clear-approval-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save or Clear Approval Chain
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Save or Clear Approval Chain">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#save-manual-override" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Save Manual Override
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear-fallback-to-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clear (fallback to matrix)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-user_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable User
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-disable-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Disable a User
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Disable a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-disable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Disable User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enable User
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-enable-a-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Enable a User
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Enable a User">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-open-user-actions_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Open User Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nexpense_company_admin_enable_userpng" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ![[nexpense_company_admin_enable_user.png]]
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="![[nexpense_company_admin_enable_user.png]]">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-click-enable-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Click “Enable User”
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-success-notification_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Success Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Users</h1>
+
+<h2 id="opening-user-management">Opening User Management  :</h2>
+<p>![[nexpense_company_admin_userclick_2_v1.png]]</p>
+<ol>
+<li>
+<p>On the <strong>left-side menu</strong>, you will see different options.</p>
+</li>
+<li>
+<p>Click on <strong>Organization → Users</strong> 👥.</p>
+</li>
+<li>
+<p>The <strong>User Management</strong> screen will open.</p>
+</li>
+</ol>
+<p>![[nexpense_company_admin_usermanagement (2).png]]</p>
+<hr />
+<h2 id="search-filter-options"><strong>Search &amp; Filter Options</strong></h2>
+<p>This section helps the admin <strong>find users quickly</strong> from the user list.</p>
+<p>![[nexpense_company_admin_userfilters.png]]</p>
+<h3 id="search-users"><strong>Search Users</strong></h3>
+<ul>
+<li>
+<p>Use the <strong>Search users…</strong> box to find a user</p>
+</li>
+<li>
+<p>You can search by:</p>
+<ul>
+<li>
+<p>User name</p>
+</li>
+<li>
+<p>Email address</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>👉 Start typing, and matching users will appear.</p>
+<hr />
+<h3 id="how-to-use-filters"><strong>How to Use Filters</strong></h3>
+<ol>
+<li>
+<p>Click on any filter (Role, Department, or Status)</p>
+</li>
+<li>
+<p>Select the required option</p>
+</li>
+<li>
+<p>The user list updates automatically</p>
+</li>
+</ol>
+<hr />
+<h3 id="filter-options"><strong>Filter Options</strong></h3>
+<p>You can narrow down the user list using filters.</p>
+<h4 id="all-roles"><strong>All Roles</strong></h4>
+<ul>
+<li>
+<p>View users based on their role</p>
+</li>
+<li>
+<p>Examples:</p>
+<ul>
+<li>
+<p>Employee</p>
+</li>
+<li>
+<p>Manager</p>
+</li>
+<li>
+<p>Admin</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h4 id="all-departments"><strong>All Departments</strong></h4>
+<ul>
+<li>
+<p>View users from a specific department</p>
+</li>
+<li>
+<p>Examples:</p>
+<ul>
+<li>
+<p>HR</p>
+</li>
+<li>
+<p>Finance</p>
+</li>
+<li>
+<p>IT</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h4 id="all-status"><strong>All Status</strong></h4>
+<ul>
+<li>
+<p>Filter users by their account status</p>
+</li>
+<li>
+<p>Options may include:</p>
+<ul>
+<li>
+<p>Active</p>
+</li>
+<li>
+<p>Inactive</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="how-to-create-a-new-user">How to Create a New User</h3>
+<h3 id="step-1-open-user-management"><strong>Step 1: Open User Management</strong></h3>
+<ol>
+<li>
+<p>Log in to the <strong>NexPense Admin Dashboard</strong>.</p>
+</li>
+<li>
+<p>From the <strong>left-side menu</strong>, click on <strong>Users</strong>.</p>
+</li>
+<li>
+<p>The <strong>User Management</strong> screen will open.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-2-click-create-user"><strong>Step 2: Click “Create User”</strong></h3>
+<p>![[nexpense_company_admin_select_createuser (2).png]]</p>
+<ol>
+<li>
+<p>On the <strong>top-right corner</strong> of the screen, click the <strong>Create User</strong> button.</p>
+</li>
+<li>
+<p>A <strong>Create New User</strong> form will open.</p>
+</li>
+</ol>
+<p>![[nexpense_company_admin_createuserform (2).png|355]]</p>
+<hr />
+<h3 id="step-3-fill-user-details"><strong>Step 3: Fill User Details</strong></h3>
+<p>Enter the required information in the form.</p>
+<h4 id="full-name"><strong>Full Name</strong></h4>
+<ul>
+<li>
+<p>Enter the user’s full name</p>
+</li>
+<li>
+<p>Example: <code>John Doe</code></p>
+</li>
+</ul>
+<h4 id="email"><strong>Email</strong></h4>
+<ul>
+<li>
+<p>Enter the user’s official email address</p>
+</li>
+<li>
+<p>This email will be used for login</p>
+</li>
+</ul>
+<h4 id="password"><strong>Password</strong></h4>
+<ul>
+<li>Enter a temporary password for the user</li>
+</ul>
+<h4 id="confirm-password"><strong>Confirm Password</strong></h4>
+<ul>
+<li>Re-enter the same password to confirm</li>
+</ul>
+<h4 id="phone-optional"><strong>Phone (Optional)</strong></h4>
+<ul>
+<li>Enter the user’s phone number (optional)</li>
+</ul>
+<hr />
+<h3 id="step-4-assign-role-access"><strong>Step 4: Assign Role &amp; Access</strong></h3>
+<h4 id="access-level"><strong>Access Level</strong></h4>
+<ul>
+<li>
+<p>Select the user’s access level</p>
+</li>
+<li>
+<p>Example: <strong>Employee</strong>, <strong>Manager</strong>, <strong>Admin</strong></p>
+</li>
+</ul>
+<p>This controls what the user can see and do in the system.</p>
+<hr />
+<h3 id="step-5-select-company-roles-approval-workflow"><strong>Step 5: Select Company Roles (Approval Workflow)</strong></h3>
+<ul>
+<li>
+<p>Choose the roles required for expense approvals</p>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>Finance</p>
+</li>
+<li>
+<p>HR</p>
+</li>
+<li>
+<p>IT</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>👉 These roles decide <strong>who can approve expenses</strong>.</p>
+<hr />
+<h3 id="step-6-select-department-optional"><strong>Step 6: Select Department (Optional)</strong></h3>
+<ul>
+<li>
+<p>Choose the department for the user</p>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>HR</p>
+</li>
+<li>
+<p>Finance</p>
+</li>
+<li>
+<p>IT</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>This helps in organizing users by department.</p>
+<hr />
+<h3 id="step-7-create-the-user"><strong>Step 7: Create the User</strong></h3>
+<ol>
+<li>
+<p>Review all the entered details.</p>
+</li>
+<li>
+<p>Click <strong>Create User</strong> to save.</p>
+</li>
+<li>
+<p>The new user will be added to the user list.</p>
+</li>
+</ol>
+<hr />
+<h3 id="optional-actions"><strong>Optional Actions</strong></h3>
+<ul>
+<li>
+<p>Click <strong>Cancel</strong> if you don’t want to create the user.</p>
+</li>
+<li>
+<p>You can edit user details later from the <strong>Users list</strong>.</p>
+</li>
+</ul>
+<hr />
+<h3 id="how-to-import-users">How to Import Users :</h3>
+<p>This feature allows admins to <strong>add multiple users at once</strong> by uploading a CSV or Excel file.</p>
+<h3 id="step-1-click-import-users"><strong>Step 1: Click “Import Users”</strong></h3>
+<p>![[nexpense_company_admin_importusers (2).png]]
+1. On the <strong>top-right corner</strong>, click the <strong>Import Users</strong> button.</p>
+<ol>
+<li>The <strong>Import Users from CSV/Excel</strong> window will open.</li>
+</ol>
+<h2 id="nexpense_company_admin_importrequiredfile-2png500">![[nexpense_company_admin_importrequiredfile (2).png|500]]</h2>
+<h3 id="step-2-understand-file-requirements"><strong>Step 2: Understand File Requirements</strong></h3>
+<p>Before uploading, make sure your file follows these rules:</p>
+<ul>
+<li>
+<p><strong>Required</strong></p>
+<ul>
+<li>Either <strong>Name</strong> or <strong>Email</strong> must be provided (at least one)</li>
+</ul>
+</li>
+<li>
+<p><strong>Optional</strong></p>
+<ul>
+<li>
+<p>Password (auto-generated if left empty)</p>
+</li>
+<li>
+<p>Phone number</p>
+</li>
+<li>
+<p>Employee ID</p>
+</li>
+<li>
+<p>Role (default: Employee)</p>
+</li>
+<li>
+<p>Status (default: Active)</p>
+</li>
+<li>
+<p>Department Name or Department ID</p>
+</li>
+<li>
+<p>Manager Name or Manager ID</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Password Rule</strong></p>
+<ul>
+<li>If provided, it must be <strong>at least 6 characters</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Supported File Formats</strong></p>
+<ul>
+<li>
+<p>CSV</p>
+</li>
+<li>
+<p>XLSX</p>
+</li>
+<li>
+<p>XLS</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>👉 Empty fields can be updated later by editing the user.</p>
+<hr />
+<h3 id="step-3-download-template-recommended"><strong>Step 3: Download Template (Recommended)</strong></h3>
+<ol>
+<li>
+<p>Click <strong>Download Template</strong>.</p>
+</li>
+<li>
+<p>Fill user details in the provided template.</p>
+</li>
+<li>
+<p>Save the file after entering data.</p>
+</li>
+</ol>
+<p>![[nexpense_company_admin_users_fileformat.png]]</p>
+<p>This helps avoid formatting errors.</p>
+<hr />
+<h3 id="step-4-upload-the-file"><strong>Step 4: Upload the File</strong></h3>
+<ol>
+<li>
+<p>Click <strong>Select File</strong><br />
+<strong>OR</strong><br />
+    Drag and drop the CSV/Excel file into the upload area.</p>
+</li>
+<li>
+<p>Make sure the correct file is selected.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-5-import-users"><strong>Step 5: Import Users</strong></h3>
+<ol>
+<li>
+<p>Click <strong>Import Users</strong>.</p>
+</li>
+<li>
+<p>The system will process the file and create users automatically.</p>
+</li>
+</ol>
+<hr />
+<h2 id="selecting-users-bulk-actions"><strong>Selecting Users &amp; Bulk Actions</strong></h2>
+<p>This feature allows admins to <strong>select one or more users</strong> and perform actions on them at the same time.</p>
+<p>![[nexpense_company_admin_bulk features.png]]</p>
+<hr />
+<h3 id="how-to-select-users"><strong>How to Select Users</strong></h3>
+<ul>
+<li>
+<p>Click the <strong>checkbox</strong> next to a user’s name</p>
+</li>
+<li>
+<p>You can select:</p>
+<ul>
+<li>
+<p><strong>One user</strong></p>
+</li>
+<li>
+<p><strong>Multiple users</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>The selected users will be highlighted</p>
+</li>
+</ul>
+<h3 id="available-actions"><strong>Available Actions</strong></h3>
+<h4 id="activate"><strong>Activate</strong></h4>
+<ul>
+<li>
+<p>Makes the selected user(s) active</p>
+</li>
+<li>
+<p>Active users can log in and use the system</p>
+</li>
+</ul>
+<hr />
+<h4 id="deactivate"><strong>Deactivate</strong></h4>
+<ul>
+<li>
+<p>Temporarily disables the selected user(s)</p>
+</li>
+<li>
+<p>Deactivated users cannot log in</p>
+</li>
+</ul>
+<hr />
+<h4 id="delete"><strong>Delete</strong></h4>
+<ul>
+<li>
+<p>Permanently removes the selected user(s)</p>
+</li>
+<li>
+<p>Use carefully (this action cannot be undone)</p>
+</li>
+</ul>
+<hr />
+<h4 id="clear"><strong>Clear</strong></h4>
+<ul>
+<li>
+<p>Clears the selection</p>
+</li>
+<li>
+<p>No users remain selected</p>
+</li>
+</ul>
+<h2 id="user-actions-menu"><strong>User Actions Menu (⋮)</strong></h2>
+<p>The <strong>Actions menu</strong> allows admins to perform <strong>individual actions</strong> on a specific user.</p>
+<p>To open it:</p>
+<ul>
+<li>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column next to a user.</li>
+</ul>
+<p>![[nexpense_company_admin_action.png]]</p>
+<hr />
+<h2 id="available-options"><strong>Available Options</strong></h2>
+<h3 id="edit-user"><strong>Edit User</strong></h3>
+<p>![[nexpense_company_admin_edituser.png]]</p>
+<ol>
+<li>
+<p>Find the user you want to update.</p>
+</li>
+<li>
+<p>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column.</p>
+</li>
+<li>
+<p>Select <strong>Edit User</strong>.</p>
+</li>
+</ol>
+<p>The <strong>Edit User</strong> window will open.</p>
+<p>![[nexpense_company_admin_editor updateuser.png]]</p>
+<hr />
+<h2 id="edit-user-fields-explained"><strong>Edit User Fields Explained</strong></h2>
+<h3 id="name"><strong>Name</strong></h3>
+<ul>
+<li>
+<p>Displays the user’s full name.</p>
+</li>
+<li>
+<p>Update if the name needs correction.</p>
+</li>
+</ul>
+<hr />
+<h3 id="email_1"><strong>Email</strong></h3>
+<ul>
+<li>
+<p>Shows the registered email address.</p>
+</li>
+<li>
+<p>Used for login and communication.</p>
+</li>
+</ul>
+<hr />
+<h3 id="phone-optional_1"><strong>Phone (Optional)</strong></h3>
+<ul>
+<li>
+<p>Add or update the user’s phone number.</p>
+</li>
+<li>
+<p>This field is optional.</p>
+</li>
+</ul>
+<hr />
+<h3 id="access-level_1"><strong>Access Level</strong></h3>
+<ul>
+<li>
+<p>Select the user’s role in the system.</p>
+</li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>Employee</p>
+</li>
+<li>
+<p>Manager</p>
+</li>
+<li>
+<p>Admin</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>This controls what the user can access.</p>
+<hr />
+<h3 id="company-roles-approval-workflow"><strong>Company Roles (Approval Workflow)</strong></h3>
+<ul>
+<li>
+<p>Select roles used in the expense approval process.</p>
+</li>
+<li>
+<p>Examples:</p>
+<ul>
+<li>
+<p>CE</p>
+</li>
+<li>
+<p>HR</p>
+</li>
+<li>
+<p>IT</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>These roles decide <strong>who can approve expenses</strong>.</p>
+<hr />
+<h3 id="status"><strong>Status</strong></h3>
+<ul>
+<li>
+<p>Choose the user’s current status:</p>
+<ul>
+<li>
+<p><strong>Active</strong> → User can log in and use the system</p>
+</li>
+<li>
+<p><strong>Inactive</strong> → User cannot log in</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="department-optional"><strong>Department (Optional)</strong></h3>
+<ul>
+<li>
+<p>Assign the user to a department.</p>
+</li>
+<li>
+<p>Helps organize users within the company.</p>
+</li>
+</ul>
+<hr />
+<h2 id="save-or-cancel-changes"><strong>Save or Cancel Changes</strong></h2>
+<ul>
+<li>
+<p>Click <strong>Update User</strong> to save changes.</p>
+</li>
+<li>
+<p>Click <strong>Cancel</strong> to close without saving.</p>
+</li>
+</ul>
+<hr />
+<h3 id="reset-password"><strong>Reset Password</strong></h3>
+<ul>
+<li>
+<p>Sends a password reset process for the user</p>
+</li>
+<li>
+<p>Allows the user to create a new password</p>
+</li>
+</ul>
+<p>👉 Use this if a user forgets their password or cannot log in.</p>
+<hr />
+<h3 id="approval-chain-ai-manual"><strong>Approval Chain (AI / Manual)</strong></h3>
+<ul>
+<li>
+<p>Configure how the user’s expenses are approved</p>
+</li>
+<li>
+<p>Choose:</p>
+<ul>
+<li>
+<p><strong>AI-based approval flow</strong></p>
+</li>
+<li>
+<p><strong>Manual approval flow</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>👉 Controls who approves the user’s expenses.</p>
+<hr />
+<h3 id="disable-user"><strong>Disable User</strong></h3>
+<ul>
+<li>
+<p>Temporarily disables the user account</p>
+</li>
+<li>
+<p>The user cannot log in while disabled</p>
+</li>
+</ul>
+<p>👉 Use this for employees who are on leave or no longer active.</p>
+<h2 id="reset-password_1">**Reset Password</h2>
+<p>The <strong>Reset Password</strong> option allows an admin to help a user who has <strong>forgotten their password</strong> or <strong>cannot log in</strong>.</p>
+<h3 id="step-1-open-user-actions"><strong>Step 1: Open User Actions</strong></h3>
+<ol>
+<li>
+<p>Go to <strong>Users</strong> in the Admin Dashboard.</p>
+</li>
+<li>
+<p>Find the user whose password needs to be reset.</p>
+</li>
+<li>
+<p>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column.</p>
+</li>
+</ol>
+<p>![[nexpense_company_admin_resetpass.png]]</p>
+<hr />
+<h3 id="step-2-click-reset-password"><strong>Step 2: Click “Reset Password”</strong></h3>
+<ol>
+<li>
+<p>From the menu, click <strong>Reset Password</strong>.</p>
+</li>
+<li>
+<p>The system will immediately process the request.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-3-success-message"><strong>Step 3: Success Message</strong></h3>
+<ul>
+<li>
+<p>A success notification appears:</p>
+<p><strong>“Password reset email sent”</strong> ✅</p>
+</li>
+</ul>
+<p>![[nexpense_COMPANY_ADMIN_popup.png]]</p>
+<p>This confirms the action was successful.</p>
+<hr />
+<h2 id="approval-chain-ai-manual_1"><strong>Approval Chain (AI / Manual)</strong></h2>
+<p>The <strong>Approval Chain</strong> feature allows admins to control <strong>how a user’s expenses are approved</strong>.</p>
+<h3 id="how-to-open-approval-chain"><strong>How to Open Approval Chain</strong></h3>
+<p>![[nexpense_company_admin_approval_chain.png]]</p>
+<ol>
+<li>
+<p>Go to <strong>Users</strong> in the Admin Dashboard.</p>
+</li>
+<li>
+<p>Find the user.</p>
+</li>
+<li>
+<p>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column.</p>
+</li>
+<li>
+<p>Select <strong>Approval Chain (AI / Manual)</strong>.</p>
+</li>
+</ol>
+<p>The <strong>Approval Chain</strong> window will open.</p>
+<p>![[nexpense_company_admin_approvalchainwindow.png]]</p>
+<h2 id="approval-chain-editor"><strong>Approval Chain Editor</strong></h2>
+<p>This section allows you to create a <strong>manual approval chain</strong>.</p>
+<h2 id="how-to-create-a-manual-approval-chain"><strong>How to Create a Manual Approval Chain</strong></h2>
+<p>![[nexpense_company_admin_addlevels.png]]</p>
+<h3 id="step-1-click-add-level"><strong>Step 1: Click “+ Add Level”</strong></h3>
+<ul>
+<li>
+<p>Each <strong>Level</strong> represents one step in approval</p>
+</li>
+<li>
+<p>Example: Level 1 → Manager, Level 2 → Finance</p>
+</li>
+</ul>
+<hr />
+<h3 id="step-2-choose-approval-type"><strong>Step 2: Choose Approval Type</strong></h3>
+<p>For each level, select one option:</p>
+<h4 id="sequential"><strong>Sequential</strong></h4>
+<ul>
+<li>
+<p>Approvals happen <strong>one after another</strong></p>
+</li>
+<li>
+<p>Example:</p>
+<ol>
+<li>
+<p>Manager approves</p>
+</li>
+<li>
+<p>Then Finance approves</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>✔ Use when approvals must follow an order</p>
+<hr />
+<h4 id="parallel"><strong>Parallel</strong></h4>
+<ul>
+<li>
+<p>All selected approvers get the request <strong>at the same time</strong></p>
+</li>
+<li>
+<p>Approval can move forward once required approvals are done</p>
+</li>
+</ul>
+<p>✔ Use when multiple roles can approve together</p>
+<hr />
+<h3 id="step-3-select-approver-roles"><strong>Step 3: Select Approver Roles</strong></h3>
+<ul>
+<li>
+<p>Choose approver roles that match your company roles:</p>
+<ul>
+<li>
+<p>CE</p>
+</li>
+<li>
+<p>HR</p>
+</li>
+<li>
+<p>IT</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>These roles decide <strong>who can approve expenses at this level</strong>.</p>
+<hr />
+<h3 id="step-4-add-more-levels-optional"><strong>Step 4: Add More Levels (Optional)</strong></h3>
+<ul>
+<li>
+<p>Click <strong>+ Add Level</strong> again to create another approval step</p>
+</li>
+<li>
+<p>Levels are processed in order (Level 1 → Level 2 → Level 3)</p>
+</li>
+</ul>
+<hr />
+<h3 id="remove-a-level"><strong>Remove a Level</strong></h3>
+<ul>
+<li>Click <strong>Remove</strong> to delete a specific level</li>
+</ul>
+<hr />
+<h2 id="save-or-clear-approval-chain"><strong>Save or Clear Approval Chain</strong></h2>
+<h3 id="save-manual-override"><strong>Save Manual Override</strong></h3>
+<ul>
+<li>
+<p>Click <strong>Save Manual Override</strong></p>
+</li>
+<li>
+<p>The custom approval chain becomes active for this user</p>
+</li>
+</ul>
+<hr />
+<h3 id="clear-fallback-to-matrix"><strong>Clear (fallback to matrix)</strong></h3>
+<ul>
+<li>
+<p>Removes all manual approval levels</p>
+</li>
+<li>
+<p>System switches back to <strong>company approval matrix</strong></p>
+</li>
+</ul>
+<h2 id="disable-user_1"><strong>Disable User</strong></h2>
+<p>The <strong>Disable User</strong> option allows admins to <strong>temporarily block a user’s access</strong> without deleting the account.</p>
+<hr />
+<h2 id="how-to-disable-a-user"><strong>How to Disable a User</strong></h2>
+<p>![[nexpense_company_admin_disable_user.png]]</p>
+<h3 id="step-1-open-user-actions_1"><strong>Step 1: Open User Actions</strong></h3>
+<ol>
+<li>
+<p>Go to <strong>Users</strong> in the Admin Dashboard.</p>
+</li>
+<li>
+<p>Find the user you want to disable.</p>
+</li>
+<li>
+<p>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-2-click-disable-user"><strong>Step 2: Click “Disable User”</strong></h3>
+<ol>
+<li>
+<p>From the menu, click <strong>Disable User</strong>.</p>
+</li>
+<li>
+<p>The system processes the request immediately.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-3-success-notification"><strong>Step 3: Success Notification</strong></h3>
+<ul>
+<li>
+<p>A notification appears at the top:</p>
+<p><strong>“User status updated”</strong> ✅</p>
+</li>
+</ul>
+<p>This confirms the user has been disabled successfully.</p>
+<p>![[nexpense_company_disable_suucesful.png]]</p>
+<h2 id="enable-user"><strong>Enable User</strong></h2>
+<p>The <strong>Enable User</strong> option allows admins to <strong>restore access</strong> for a previously disabled user.</p>
+<hr />
+<h2 id="how-to-enable-a-user"><strong>How to Enable a User</strong></h2>
+<h3 id="step-1-open-user-actions_2"><strong>Step 1: Open User Actions</strong></h3>
+<ol>
+<li>
+<p>Go to <strong>Users</strong> in the Admin Dashboard.</p>
+</li>
+<li>
+<p>Find the disabled user.</p>
+</li>
+<li>
+<p>Click the <strong>three dots (⋮)</strong> in the <strong>Actions</strong> column.</p>
+</li>
+</ol>
+<h2 id="nexpense_company_admin_enable_userpng">![[nexpense_company_admin_enable_user.png]]</h2>
+<h3 id="step-2-click-enable-user"><strong>Step 2: Click “Enable User”</strong></h3>
+<ol>
+<li>
+<p>From the menu, click <strong>Enable User</strong>.</p>
+</li>
+<li>
+<p>The system processes the request immediately.</p>
+</li>
+</ol>
+<hr />
+<h3 id="step-3-success-notification_1"><strong>Step 3: Success Notification</strong></h3>
+<ul>
+<li>
+<p>A confirmation message appears at the top:</p>
+<p><strong>“User status updated”</strong> ✅</p>
+</li>
+</ul>
+<p>This means the user has been enabled successfully.</p>
+<p>![[nexpense_company_admin_enable_succesful.png]]</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

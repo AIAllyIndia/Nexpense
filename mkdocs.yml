@@ -1,0 +1,51 @@
+site_name: Expense Scanner User Guide
+theme:
+  name: material
+
+nav:
+  - Home: Index.md
+  - All Modules:
+    - Company Admin:
+        - Introduction: company admin/Introduction.md
+        - Dashboard: company admin/Dashboard.md
+        - Notifications: company admin/Notifications.md
+        - Reports: company admin/Reports.md
+        - Settings: company admin/Settings.md
+        - Approval Matrix: company admin/Configuration/Approval Matrix.md
+        - Categories: company admin/Configuration/Categories.md
+        - Cost Center: company admin/Engagment/Cost Center.md
+        - Projects: company admin/Engagment/Projects.md
+        - Stakeholders: company admin/Engagment/Stakeholders.md
+        - Company Roles: company admin/Organization/Company Roles.md
+        - Departments: company admin/Organization/Departments.md
+        - Users: company admin/Organization/Users.md
+        - Dashboard: company admin/Vouchers/Dashboard.md
+        - Manage Vouchers: company admin/Vouchers/Manage Vouchers.md
+        - Return Requests: company admin/Vouchers/Return Requests.md    
+    
+    - Employee:
+        - Introduction: employee/Introduction.md
+        - Dashboard: employee/Dashboard.md
+        - My Expenses:
+            - Add Expenses: employee/My Expenses/Add Expenses.md
+            - My Expenses: employee/My Expenses/My Expenses.md
+        - Create Report: employee/Create Report.md
+        - Reports: employee/Reports.md
+        - Advance Cash: employee/Advance Cash.md
+        - Pending Approvals:
+             - Overview: employee/Pending Approvals/Overview.md
+             - Pending Approvals Card: employee/Pending Approvals/Pending Approvals Card.md
+        - Settings:
+             - Help & Support: employee/Settings/Help & Support.md
+             - Settings: employee/Settings/Settings.md
+             - Preferences: employee/Settings/Preferences.md
+
+    - Users:
+        - Introduction: users\Introduction.md
+        - Dashboard Overview: users\Dashboard Overview.md
+        - Settings: users\Settings.md
+        - Create Expense Report: users\Create Expense Report.md
+        - Scan Receipt: users\Scan Receipt.md
+        - Expenses: users\Expenses.md
+        - Reports: users\Reports.md
+        
